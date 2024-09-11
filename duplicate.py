@@ -1,0 +1,12 @@
+list1 = ['CNTM', 'HPH', 'CDT', 'AIEV', 'GIPR', 'TANH', 'HLVX', 'GRI', 'VWE', 'CONN', 'MULN', 'XTIA', 'TGL', 'VBIV', 'FAAS', 'NCI', 'XPON', 'SYTA', 'CRIS', 'CNSP', 'JAGX', 'MBLY', 'FRGT', 'VCIG', 'ENTO', 'TCRT', 'NMHI', 'HYZN', 'TNXP', 'SEEL', 'DGLY', 'SPI', 'LGMK', 'APTO', 'BZ', 'INTC', 'AMLI', 'CRSR', 'CETX', 'XOS', 'ATEC', 'GRAB', 'MOBX', 'IART', 'GUTS', 'BIMI', 'TCPC', 'SPRC', 'SGD', 'MICS', 'SLGL', 'BGFV', 'GPAK', 'MFI', 'VLCN', 'IFBD', 'TPST', 'BHAT', 'CLEU', 'RNAZ', 'LAES', 'VERB', 'IMAB', 'GWAV', 'HEPA', 'SEED', 'NXTT', 'ELAB', 'ARBB', 'PHIO', 'HIMX', 'SILC', 'MAXN', 'PET', 'ALXO', 'MMAT', 'AVDX', 'SPEC', 'AVTE', 'GTI', 'AYTU', 'DZSI', 'AQMS', 'GNPX', 'CWD', 'SONN', 'FTFT', 'SGMA', 'TLIS', 'JWEL', 'RENB', 'SGML', 'UK', 'GRYP', 'REVB', 'BMRA', 'MNY', 'GENE', 'DTSS', 'PITA', 'ELBM', 'OPTX', 'MXL', 'SPWR', 'PRST', 'ELEV', 'SPPL', 'TURN', 'MLCO', 'IBRX', 'AGEN', 'TCTM', 'VRAR', 'PSEC', 'AENT', 'GBDC', 'SGBX', 'PRPH', 'LYFT', 'UPXI', 'SXTP', 'ICCT', 'BJDX', 'SBFM', 'OCSL', 'MFIC', 'GT', 'TCBP', 'HSDT', 'ATXI', 'OCTO', 'SOND', 'APDN', 'VRM', 'HYFM', 'YGMZ', 'ALLR', 'NA', 'WHLR', 'ALCE']
+list2 = ['CNTM', 'HPH', 'CDT', 'AIEV', 'GIPR', 'TANH', 'VWE', 'GRI', 'CONN', 'HLVX', 'TGL', 'VBIV', 'MULN', 'XTIA', 'XPON', 'FAAS', 'NCI', 'SYTA', 'CRIS', 'CNSP', 'VCIG', 'JAGX', 'ENTO', 'MBLY', 'FRGT', 'LGMK', 'TCRT', 'NMHI', 'SEEL', 'TCPC', 'HYZN', 'IART', 'SPI', 'ATEC', 'INTC', 'TNXP', 'BIMI', 'DGLY', 'GPAK', 'DZSI', 'GNPX', 'XOS', 'IFBD', 'CETX', 'GUTS', 'MOBX', 'BZ', 'AMLI', 'BGFV', 'APTO', 'SPRC', 'VLCN', 'LAES', 'HIMX', 'CRSR', 'IMAB', 'GWAV', 'SPEC', 'MMAT', 'AVDX', 'RNAZ', 'TLIS', 'CLEU', 'ALXO', 'SLGL', 'MICS', 'BHAT', 'PET', 'VERB', 'PITA', 'PHIO', 'SEED', 'ELAB', 'ELEV', 'TPST', 'AQMS', 'SILC', 'HEPA', 'MFI', 'MAXN', 'REVB', 'ARBB', 'SGMA', 'GTI', 'NXTT', 'SONN', 'SGD', 'FTFT', 'CWD', 'AVTE', 'UPXI', 'MNY', 'SGML', 'PRST', 'PSEC', 'JWEL', 'GRAB', 'RENB', 'DTSS', 'SPWR', 'TCBP', 'GBDC', 'TCTM', 'SGBX', 'UK', 'IBRX', 'GT', 'VRM', 'TURN', 'SBFM', 'AENT', 'SYM', 'PEPG', 'AYTU', 'BMRA', 'BJDX', 'ELSE', 'NA', 'SXTP', 'MXL', 'AGEN', 'OCTO', 'MLCO', 'GRYP', 'SPPL', 'ALCE', 'EZGO', 'ELVA', 'GENE', 'YGMZ', 'WHLR', 'OM', 'OPTX', 'OCSL', 'LYFT', 'MERC', 'RMNI', 'ATXI', 'ICCT', 'MFIC', 'HTOO', 'PRPH', 'GROM', 'HYFM']
+
+#refresh this every 1 month
+
+
+set1 = set(list1)
+set2 = set(list2)
+
+duplicates = set1.intersection(set2)
+
+print("Duplicates:", duplicates)
